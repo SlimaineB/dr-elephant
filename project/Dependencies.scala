@@ -103,8 +103,9 @@ object Dependencies {
     )
   ) :+ sparkExclusion
 
-  var dependencies = Seq(javaJdbc, javaEbean, cache)
-  dependencies ++= requiredDep
+  // var dependencies = Seq(javaJdbc, javaEbean, cache)
+  
+  var dependencies = requiredDep
 
   val exclusionRules = Seq(
     ExclusionRule(organization = "com.sun.jersey", name = "jersey-core"),
