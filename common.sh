@@ -27,7 +27,7 @@ set -x
 #
 ########################################################
 # Base path for most of the quality tool reports
-readonly REPORTS_BASE_PATH="target/scala-2.10/"
+readonly REPORTS_BASE_PATH="target/scala-2.11/"
 
 # ******************** Constants for Findbugs *********************
 # Default path for Findbugs report
