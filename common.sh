@@ -15,7 +15,7 @@
 # License for the specific language governing permissions and limitations under
 # the License.
 #
-
+set -x
 #
 # This script contains common functions and constants which will be used by both
 # compile.sh and travis.sh while running different tools.
